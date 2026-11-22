@@ -12,12 +12,8 @@
 | **Size** | 306,429 rows, about 22 MB |
 | **Format** | CSV, one row per province/state per country per day |
 
-> **Why not Our World in Data?** The project brief named Our World in Data (OWID) as the
-> initial source. This repository uses the Kaggle/JHU file instead. It provides
-> cumulative `Confirmed`, `Deaths` and `Recovered` by day, and the producer derives the
-> daily `new_cases` / `new_deaths` from those totals. OWID publishes ready-made
-> `new_cases` / `new_deaths` columns; see https://ourworldindata.org/coronavirus if you
-> want to switch, but the producer's column handling would need to change.
+The file provides cumulative `Confirmed`, `Deaths` and `Recovered` values per day.
+The producer derives the daily `new_cases` / `new_deaths` from those totals.
 
 ## Download
 
