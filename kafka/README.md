@@ -50,3 +50,11 @@ docker exec -it kafka /opt/kafka/bin/kafka-console-consumer.sh --topic covid-dat
 
 docker compose down
 
+## Verify Python connectivity
+
+Tested with the Member 1 producer (sent 390 records, received in the console consumer):
+
+python producer/producer.py data/covid\_19\_data.csv 2021-05-28 2021-05-29
+
+
+
